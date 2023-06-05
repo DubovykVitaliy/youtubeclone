@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 12.7 12.7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="a">
+<stop stop-color="#ff7f76" offset="0"/>
+<stop stop-color="#fc1503" offset="1"/>
+</linearGradient>
+<linearGradient id="d" x1="41.144" x2="41.144" y1="77.126" y2="130.04" gradientTransform="translate(-95.29 -208.11)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<linearGradient id="c" x1="41.144" x2="41.144" y1="77.126" y2="130.04" gradientTransform="translate(-81.619 8.8917)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<linearGradient id="b" x1="41.144" x2="41.144" y1="77.126" y2="130.04" gradientTransform="translate(99.412 -111.54)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<clipPath id="e">
+<path transform="scale(.26458)" d="m333.12 420.93-126.35 73.105a1.152 1.1547 0.12 0 1-1.7279-1.0001l8e-3 -96 4e-3 -50.041" fill="none" stroke-width=".14937"/>
+<path transform="scale(.26458)" d="m205.06 329.67 3e-3 -32.639a1.152 1.1547 0.12 0 1 1.7281-0.99987l169.34 98.013a1.152 1.1547 0.12 0 1-1.8e-4 2l-28.02 16.212" fill="none" stroke-width=".14937"/>
+</clipPath>
+</defs>
+<g transform="translate(-71.428 -98.17)">
+<g transform="matrix(.23196 0 0 .23196 60.018 80.259)" clip-path="url(#e)" stroke-width="1.0077">
+<path transform="scale(-1)" x="-62.084156" y="-130.98161" width="7.9375" height="52.916668" d="m-62.084-130.98h7.9375v52.917h-7.9375z" fill="url(#d)"/>
+<path transform="rotate(60)" x="132.61876" y="-34.410938" width="7.9375" height="52.916668" d="m132.62-34.411h7.9375v52.917h-7.9375z" fill="url(#b)"/>
+<path transform="rotate(-60)" x="-48.412525" y="86.017982" width="7.9375" height="52.916668" d="m-48.413 86.018h7.9375v52.917h-7.9375z" fill="url(#c)"/>
+</g>
+</g>
+</svg>
