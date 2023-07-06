@@ -7,7 +7,7 @@ const BASE_URL = 'https://youtube-v31.p.rapidapi.com'
 export const axiosSearchAPI = axios.create({
 	baseURL: BASE_URL,
 	headers: {
-		'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+		'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
 		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
 	},
 })
@@ -19,7 +19,7 @@ const BASE_VIDEO_URL = 'https://youtube-v3-alternative.p.rapidapi.com'
 export const axiosAPI = axios.create({
 	baseURL: BASE_VIDEO_URL,
 	headers: {
-		'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+		'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
 		'X-RapidAPI-Host': 'youtube-v3-alternative.p.rapidapi.com',
 	},
 })
@@ -30,7 +30,8 @@ const options = {
 		maxResults: '50',
 	},
 	headers: {
-		'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+		// 'X-RapidAPI-Key': __API_KEY__,
+		'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
 		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
 	},
 }
@@ -43,7 +44,7 @@ export const fetchFromApi = async (url) => {
 // Don`t used
 const videoOptions = {
 	headers: {
-		'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+		'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
 		'X-RapidAPI-Host': 'youtube-v3-alternative.p.rapidapi.com',
 	},
 }
